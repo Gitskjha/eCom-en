@@ -2,7 +2,7 @@
 @section('main')
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-4 m-5">
+            <div class="col-md-4 m-5 login-box p-3">
             <form action="{{ url('login') }}" method="POST">
                 @csrf
                 <div class="form-group">
